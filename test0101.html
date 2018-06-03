@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Редактор v 2.0</title>
+    <style>
+        .default {
+            border-width: 3px;
+            border-style: double;
+            border-color: #993300;
+            box-shadow: 1px 1px 4px 3px #000;
+            /*margin-top: 1em;*/
+            }
+        .resizable {
+            display: inline-block;
+            overflow: hidden;
+            width: 49%;
+            height: 100%;
+            resize: both;
+            padding-right: 5px;
+            padding-bottom: 5px;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .edit{
+            background: black;
+            color: yellow;
+            white-space: pre;
+
+        }
+
+    </style>
+</head>
+<body style="padding: 0;margin: 0;">
+<!--style="white-space: nowrap;"height: 100%; width: 100%;line-height:0px
+<div class="default" style="display: inline-block;vertical-align: top;height:100%;overflow: auto;width: 45%;resize: both;" >
+12
+</div>
+      Введите пример:
+        Результат:
+vertical-align: middle;
+        float: right;float: right;<b style="margin-top: -30px;padding-top: -30px ">ppppp</b>
+       seamless -->
+<textarea oninput='pussy();' class="default edit" id='pussy_list'
+          style="display: inline-block;vertical-align: top;height:100%;width: 48%;" rows="30">
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Ну что наченай уже ваять!</title>
+    <style>
+        /*Здесь создаём колекцию CSS*/
+
+    </style>
+</head>
+<body>
+<!--Здесь делаем страницу на HTML-->
+<br><br><br><br><br><br><br><br><br><br>
+<marquee><b>Пора начинать !!!</b></marquee>
+
+
+
+
+
+</body>
+<script>
+    /*Здесь пишеим программу на JavaScript*/
+
+</script>
+</html>
+</textarea>
+<div class="resizable default" id='quim'>
+
+    <!--<legend style="background-color: yellow; position: relative;top: -1em;">Контактная информация</legend>-->
+<iframe  classx="default" id='quim_list'
+         stylex="display: inline-block;vertical-align: top;height: 100%; width: 49%;overflow: auto;resize: both;" >
+
+
+</iframe>
+
+</div>
+<!--srcdoc='<html lang="ru"><head><title>Редактор v 2.0</title></head><body style="">123</body></html>'
+    <textarea oninput='pussy();' class="default" id='pussy_list'
+              style="display: inline-block;height:100%;overflow: auto;width: 45%;resize: both;" rows="30">
+</textarea>
+-->
+
+
+   <!-- <fieldset style="display: inline-block;vertical-align: top;height:10%;width: 45%;overflow: visible;resize: both;">
+        <legend>Контактная информация</legend>
+    </fieldset>-->
+    <script>
+       onload=()=>{
+          quim.style.height=(pussy_list.clientHeight-5)+'px';
+           ///quim_list.style.height='100%';
+       }
+        function pussy() {
+            example=pussy_list.value;
+            //quim_list.innerHTML=example;
+            quim_list.srcdoc=example;
+        }
+       pussy();
+    </script>
+
+
+
+</body>
+</html>
